@@ -1,0 +1,21 @@
+number,company,verdict,edge_that_decided,note
+1,Saffron Lane Kitchen,keep,,Fits every edge
+2,Bayt Al Qahwa Roasters,keep,size,A band of 11 to 50 sits inside 5 to 50
+3,Harbour Plate Group,strike,size,220 staff is above 50
+4,Corniche Grill House,keep,,Fits every edge
+5,Little Fig Bakery,keep,,Calls itself a bakery and café
+6,Desert Bowl Cloud Kitchens,keep,ruling,On the line. See rulings in market.yml
+7,Ras Events Catering,strike,place,Abu Dhabi is outside Dubai and Sharjah (and it is a caterer)
+8,Marina Lights Hotel,strike,size,300 staff is above 50 (and it is a hotel)
+9,Oud and Olive Bistro,keep,,Fits every edge
+10,Tamr Coffee Kiosks,strike,size,3 staff is below 5
+11,Steel and Spoon Kitchens,strike,never,A competitor
+12,Zaatar Corner,keep,size,About 12 is a rough count inside 5 to 50
+13,Noodle Yard,keep,,Fits every edge
+14,The Green Ladle,keep,ruling,On the line. See rulings in market.yml
+15,Al Noor Sweets Factory,strike,size,60 staff is above 50 (and it is a factory)
+16,Jetty Nine Seafood,strike,never,A current service customer
+17,Karak Corner Tea,strike,place,Ajman is outside Dubai and Sharjah
+18,Basil Street Pizza,keep,,Fits every edge
+19,Sunset Deck Lounge,keep,ruling,On the line. See rulings in market.yml
+20,Masala Box,strike,ruling,On the line. See rulings in market.yml

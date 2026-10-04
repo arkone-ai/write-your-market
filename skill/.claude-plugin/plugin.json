@@ -1,0 +1,13 @@
+{
+  "name": "write-your-market",
+  "version": "1.0.0",
+  "description": "Walk a small business owner through writing down who they sell to as market.yml, with every edge and its reason, then test it on twenty companies they know.",
+  "author": {
+    "name": "ArkOne AI",
+    "url": "https://arkone.ai"
+  },
+  "homepage": "https://github.com/arkone-ai/write-your-market",
+  "repository": "https://github.com/arkone-ai/write-your-market",
+  "license": "MIT",
+  "keywords": ["outbound", "market", "small-business", "sales", "ideal-customer"]
+}

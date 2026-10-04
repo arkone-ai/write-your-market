@@ -1,0 +1,28 @@
+# Your market. Fill in every field.
+# Every edge gets a why line, so a stranger could apply it without asking you.
+# A finished example is in example/market.yml.
+
+sentence: ""          # One line: who you sell to, where, and what they need from you.
+
+size:
+  staff_min:          # The smallest company that fits, as a number of staff.
+  staff_max:          # The largest company that fits.
+  why: ""
+
+sector:
+  keep: ""            # In the words a company uses about itself.
+  strike: ""          # Look-alikes that do not fit.
+  why: ""
+
+place:
+  keep: []            # The cities, emirates or countries you can actually serve.
+  why: ""
+
+never:                # Companies that fit every edge and still never hear from you.
+  - who: ""
+    why: ""
+
+rulings: []           # Filled in at step 6, one entry per case that sits on the line:
+#  - case: ""
+#    decision: keep    # or strike
+#    why: ""

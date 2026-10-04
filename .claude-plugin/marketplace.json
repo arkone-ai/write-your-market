@@ -1,0 +1,15 @@
+{
+  "name": "write-your-market",
+  "description": "One skill: write down who you sell to as market.yml, then test it on twenty companies.",
+  "owner": {
+    "name": "ArkOne AI",
+    "url": "https://arkone.ai"
+  },
+  "plugins": [
+    {
+      "name": "write-your-market",
+      "source": "./skill",
+      "description": "Walk a small business owner through writing down who they sell to as market.yml, with every edge and its reason, then test it on twenty companies they know."
+    }
+  ]
+}

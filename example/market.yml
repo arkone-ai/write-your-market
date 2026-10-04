@@ -1,0 +1,45 @@
+# What good looks like.
+# market.yml for an invented business: a six-person Dubai firm that
+# installs and services commercial kitchens.
+# Run against example/companies.csv it keeps 11 and strikes 9
+# (see example/expected.csv).
+
+sentence: Independent restaurants and cafés in Dubai and Sharjah that need a kitchen installed or serviced.
+
+size:
+  staff_min: 5
+  staff_max: 50
+  why: Below five they buy second-hand. Above fifty a procurement team buys.
+  bands: A band or a rough count is kept when it sits inside 5 to 50, such as "11-50 employees" or "about 12".
+
+sector:
+  keep: A company that runs its own restaurant or café, in the words it uses about itself.
+  strike: Caterers, hotels, food factories.
+  why: Directories mix caterers and hotels in with restaurants.
+  read_from: What the company says it does. Never the label a directory gave it.
+
+place:
+  keep: [Dubai, Sharjah]
+  why: One van reaches both in a morning.
+
+never:
+  - who: Current service customers
+    why: Already ours.
+  - who: Other kitchen installers
+    why: Competitors.
+  - who: Anyone who asked us to stop
+    why: They asked.
+
+rulings:
+  - case: A cloud kitchen that runs delivery-only brands from one kitchen
+    decision: keep
+    why: It cooks to order in its own kitchen, and that kitchen needs installing and servicing.
+  - case: A café by day that is a catering kitchen by night
+    decision: keep
+    why: It calls itself a café first. The catering runs in the same kitchen.
+  - case: A restaurant that is also an events venue
+    decision: keep
+    why: It runs a restaurant, in its own words. The events use the same kitchen.
+  - case: A directory says restaurant, the own website says meal-prep subscription
+    decision: strike
+    why: Its own words decide. It sells boxed meals, not a place to eat.
